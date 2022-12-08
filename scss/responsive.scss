@@ -1,0 +1,63 @@
+// max width 1280px
+@media (max-width: 80em) {
+  .d-xl-none {
+    display: none;
+  }
+  .d-xl-block {
+    display: block;
+  }
+  .d-xl-flex {
+    display: flex;
+  }
+  /*-------------------------------------------------------------*/
+}
+// max width 1024px
+@media (max-width: 64em) {
+  .d-lg-none {
+    display: none;
+  }
+  .d-lg-block {
+    display: block;
+  }
+  .d-lg-flex {
+    display: flex;
+  }
+  /*-------------------------------------------------------------*/
+}
+// max width 992px
+@media (max-width: 62em) {
+
+
+}
+// max width 768px
+@media (max-width: 48em) {
+  .d-md-none {
+    display: none;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .d-md-flex {
+    display: flex;
+  }
+  /*-------------------------------------------------------------cate*/
+}
+
+// max width 640px
+@media (max-width: 40em) {
+  .d-sm-none {
+    display: none;
+  }
+  .d-sm-block {
+    display: block;
+  }
+  .d-sm-flex {
+    display: flex;
+  }
+}
+
+// danh cho man hinh duoi 400px
+@media (max-width: 25em) {
+}
+@media (max-width: 20em) {
+}

@@ -1,0 +1,86 @@
+.ema-header-pc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .ema-header-pc-heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Century";
+    text-transform: capitalize;
+  }
+  & .ema-likeshare {
+    position: absolute;
+    right: 70px;
+    top: 14px;
+  }
+}
+.ema-mb-heading {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Century";
+  text-transform: capitalize;
+}
+.ema-share-heading {
+  color: #fff;
+  font: normal 12px/21px Roboto;
+  & svg {
+    margin-bottom: -2px;
+  }
+}
+.ema-wrapper {
+  background: #fff;
+  font-family: "Noto Serif", serif;
+  padding-bottom: 2rem;
+}
+.ema-container .public,
+.ema-container p,
+.ema-container h1,
+.ema-container h2,
+.ema-container h3,
+.ema-container h4,
+.ema-container h5,
+.ema-container h6 {
+  max-width: 650px;
+  margin: auto;
+}
+.ema-container p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #202124;
+}
+.ema-container p strong,
+.ema-container p b {
+  font-weight: bold;
+}
+.ema-container p em {
+  font-style: italic;
+}
+.ema-container figure.expNoEdit {
+  margin-bottom: 1rem !important;
+}
+.ema-container figure.expNoEdit.small {
+  max-width: 980px;
+  margin: auto;
+  clear: both;
+}
+.ema-container figure.expNoEdit.right {
+  float: right;
+  width: auto !important;
+  margin-left: 40px !important;
+  text-align: right;
+  max-width: 400px;
+}
+.ema-container figure.expNoEdit.left {
+  float: left;
+  width: auto !important;
+  margin-right: 40px !important;
+  text-align: left;
+  max-width: 400px;
+}
+.ema-container figure.expNoEdit img {
+  margin: auto;
+}
