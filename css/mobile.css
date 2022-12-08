@@ -291,32 +291,20 @@ a:focus {
 @font-face {
   font-family: "Hind";
   src: local("Hind Regular"),
-    url("../mob_font/Hind-Regular.woff2") format("woff2"),
-    url("../mob_font/Hind-Regular.woff") format("woff"),
-    url("../mob_font/Hind-Regular.ttf") format("truetype"),
-    url("../mob_font/Hind-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../mob_font/Hind-Regular.svg") format("svg");
+    url("../fonts/hind/Hind-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Hind";
   src: local("Hind Medium"),
-    url("../mob_font/Hind-Medium.woff2") format("woff2"),
-    url("../mob_font/Hind-Medium.woff") format("woff"),
-    url("../mob_font/Hind-Medium.ttf") format("truetype"),
-    url("../mob_font/Hind-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../mob_font/Hind-Medium.svg") format("svg");
+    url("../fonts/hind/Hind-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Hind";
-  src: local("Hind Bold"), url("../mob_font/Hind-Bold.woff2") format("woff2"),
-    url("../mob_font/Hind-Bold.woff") format("woff"),
-    url("../mob_font/Hind-Bold.ttf") format("truetype"),
-    url("../mob_font/Hind-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../mob_font/Hind-Bold.svg") format("svg");
+  src: local("Hind Bold"), url("../fonts/hind/Hind-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }

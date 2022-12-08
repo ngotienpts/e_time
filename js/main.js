@@ -8,30 +8,60 @@ document.addEventListener("DOMContentLoaded", function () {
   // fancybox
   var fancyboxes = document.querySelectorAll(".fancybox-full");
 
+  // show header mb
+  var headerMb = document.querySelector(".header.fixed");
+
   const app = {
     // su ly cac su kien
     handleEvent: function () {
       const _this = this;
 
       // when click back top
-      if (backTop) {
-        backTop.onclick = function () {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        };
-      }
+      // if (backTop) {
+      //   backTop.onclick = function () {
+      //     document.body.scrollTop = 0;
+      //     document.documentElement.scrollTop = 0;
+      //   };
+      // }
 
-      // emagazin
-      if (widthDoc) {
-        var expNoEditFull = document.querySelectorAll(".expNoEdit.full");
-        expNoEditFull.forEach(function (a) {
-          a.style.width = widthDoc.clientWidth + "px";
-          a.style.marginLeft = "-" + a.offsetLeft + "px";
+      // header mb
+      if (headerMb) {
+        var navMb = headerMb.querySelector(".nav");
+        var newsStop = headerMb.querySelector(".newstop");
+        var navItems = headerMb.querySelectorAll(".nav-item");
+        navMb.onclick = function () {
+          this.classList.add("active");
+          headerMb.classList.add("active-overlay");
+        };
+        newsStop.onclick = function () {
+          this.classList.add("active");
+          headerMb.classList.add("active-overlay");
+        };
+        navItems.forEach(function (item) {
+          var icon = item.querySelector(".icon-down.block");
+          if (icon && icon != null) {
+            icon.onclick = () => {
+              item.classList.toggle("active");
+            };
+          }
         });
       }
-
       // hide cac element khi click ra ngoai
-      document.addEventListener("click", function (e) {});
+      document.addEventListener("click", function (e) {
+        if (headerMb) {
+          var navMb = headerMb.querySelector(".nav");
+          var newsStop = headerMb.querySelector(".newstop");
+          if (
+            !navMb.contains(e.target) &&
+            !newsStop.contains(e.target) &&
+            !e.target.matches(".nav-box")
+          ) {
+            navMb.classList.remove("active");
+            newsStop.classList.remove("active");
+            headerMb.classList.remove("active-overlay");
+          }
+        }
+      });
     },
     // fancybox
     fancybox: function () {
@@ -62,6 +92,12 @@ document.addEventListener("DOMContentLoaded", function () {
         additionalMarginTop: 30,
       });
     },
+    // sticky bar cate
+    stickyCate: function () {
+      $(".leftSidebarCate,.rightSidebarCate").theiaStickySidebar({
+        additionalMarginTop: 30,
+      });
+    },
     // window scroll
     windowScroll: function () {
       var _this = this;
@@ -80,6 +116,8 @@ document.addEventListener("DOMContentLoaded", function () {
       this.fancybox();
       // sticky bar home 1
       this.stickyHome1();
+      // sticky bar cate
+      this.stickyCate();
     },
   };
 
