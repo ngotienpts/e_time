@@ -86,6 +86,39 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
     },
+    // slider primary
+    sliderPrimary: function () {
+      var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        loop: true,
+        effect: "fade",
+        navigation: {
+          nextEl: ".right",
+          prevEl: ".left",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    },
+    // slider secondary
+    sliderSecondary: function () {
+      var swiper2 = new Swiper(".content-slide", {
+        navigation: {
+          nextEl: ".slide-box .right",
+          prevEl: ".slide-box .left",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    },
     // sticky bar home 1
     stickyHome1: function () {
       $(".leftSidebar-1,.centerSidebar-1,.rightSidebar-1").theiaStickySidebar({
@@ -118,6 +151,10 @@ document.addEventListener("DOMContentLoaded", function () {
       this.stickyHome1();
       // sticky bar cate
       this.stickyCate();
+      // slider primary
+      this.sliderPrimary();
+      // slider secondary
+      this.sliderSecondary();
     },
   };
 

@@ -113,6 +113,7 @@
       title="ETime"
     />
     <!-- css -->
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css">
     <link href="./css/style.css" rel="stylesheet" />
     <link href="./css/responsive.css" rel="stylesheet" />
     <!-- end css -->
@@ -1422,7 +1423,7 @@
                 </li>
               </ul>
             </div>
-            <div class="block-content slide-box">
+            <div class="block-content slide-box swiper">
               <div class="title-main">
                 <h2>
                   <a
@@ -1433,18 +1434,12 @@
                   >
                 </h2>
               </div>
-              <div
-                class="content-slide"
-                data-slideshow
-                data-slideshow-loop="true"
-                data-slideshow-interval="5000"
-              >
+              <div class="content-slide">
                 <ul
-                  class="list-slide"
-                  data-slideshow-slides
-                  data-slideshow-scrollable="true"
+                  class="list-slide swiper-wrapper"
+                 
                 >
-                  <li class="slide-item" data-slideshow-item>
+                  <li class="slide-item swiper-slide" data-slideshow-item>
                     <ul>
                       <li class="item" data-newsid="20221206174106049">
                         <a
@@ -1539,7 +1534,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="slide-item" data-slideshow-item>
+                  <li class="slide-item swiper-slide" data-slideshow-item>
                     <ul>
                       <li class="item" data-newsid="20221206090259115">
                         <a
@@ -2165,7 +2160,7 @@
                 </li>
               </ul>
             </div>
-            <div class="block-content slide-box">
+            <div class="block-content slide-box swiper ">
               <div class="title-main">
                 <h2>
                   <a
@@ -2178,16 +2173,13 @@
               </div>
               <div
                 class="content-slide"
-                data-slideshow
-                data-slideshow-loop="true"
-                data-slideshow-interval="5000"
+                
               >
                 <ul
-                  class="list-slide"
-                  data-slideshow-slides
-                  data-slideshow-scrollable="true"
+                  class="list-slide swiper-wrapper"
+                  
                 >
-                  <li class="slide-item" data-slideshow-item>
+                  <li class="slide-item swiper-slide" data-slideshow-item>
                     <ul>
                       <li class="item" data-newsid="20221207072030741">
                         <a
@@ -2279,7 +2271,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="slide-item" data-slideshow-item>
+                  <li class="slide-item swiper-slide" data-slideshow-item>
                     <ul>
                       <li class="item" data-newsid="20221205225844227">
                         <a
@@ -4371,10 +4363,13 @@
     <a id="__back2top" title="Trở về đầu trang"
       ><i class="icon icon-back2top"></i
     ></a>
-    <script src="./js/home.1.0.min.js"></script>
+    <!-- <script src="./js/home.1.0.min.js"></script> -->
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/swiper/swiper-bundle.min.js"></script>
     <script src="./js/ResizeSensor.js"></script>
     <script src="./js/theia-sticky-sidebar.js"></script>
     <script src="./js/main.js"></script>
+    
   </body>
 </html>
 
