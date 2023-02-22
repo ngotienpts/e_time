@@ -113,6 +113,12 @@ document.addEventListener("DOMContentLoaded", function () {
           nextEl: ".slide-box .right",
           prevEl: ".slide-box .left",
         },
+        slidesPerView: 2,
+        grid: {
+          rows: 2,
+          fill: "rows",
+        },
+
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,

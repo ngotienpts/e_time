@@ -2021,18 +2021,16 @@ button.swiper-pagination-bullet {
 }
 
 .main .wrapper .main-block-content .slide-box .content-slide .list-slide .slide-item ul {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 -5px;
 }
 
-.main .wrapper .main-block-content .slide-box .content-slide .list-slide .slide-item ul .item {
+.main .wrapper .main-block-content .slide-box .content-slide .list-slide .slide-item.item {
   position: relative;
   width: 50%;
   padding: 5px;
 }
 
-.main .wrapper .main-block-content .slide-box .content-slide .list-slide .slide-item ul .item .title-box {
+.main .wrapper .main-block-content .slide-box .content-slide .list-slide .slide-item.item .title-box {
   position: absolute;
   bottom: 5px;
   left: 5px;
