@@ -125,6 +125,17 @@ document.addEventListener("DOMContentLoaded", function () {
         },
       });
     },
+    // slider three item
+    sliderThreeItems: function () {
+      var swiper = new Swiper(".js__threeSlide", {
+        navigation: {
+          nextEl: ".list-posts-top .swiper-button-next",
+          prevEl: ".list-posts-top .swiper-button-prev",
+        },
+        slidesPerView: 3,
+        
+      });
+    },
     // sticky bar home 1
     stickyHome1: function () {
       $(".leftSidebar-1,.centerSidebar-1,.rightSidebar-1").theiaStickySidebar({
@@ -161,6 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
       this.sliderPrimary();
       // slider secondary
       this.sliderSecondary();
+      this.sliderThreeItems();
     },
   };
 

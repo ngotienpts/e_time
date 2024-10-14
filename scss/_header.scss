@@ -38,9 +38,14 @@ header .top-line-head .line-rss a {
   border-radius: 2px;
   margin-left: 10px;
 }
+
 header .top-line-head .line-rss a:hover {
   color: #fff;
   background: #003f1b;
+}
+header .top-line-head .line-rss .icon {
+  height: 14px;
+  width: auto;
 }
 header .list-posts-top {
   background: #003f1b;
@@ -49,25 +54,24 @@ header .list-posts-top {
 header .list-posts-top .wrapper {
   position: relative;
 }
-header .list-posts-top .wrapper ul {
+header .list-posts-top .wrapper .swiper {
   margin: 0 -15px;
   padding: 15px 0;
 }
-header .list-posts-top .wrapper ul .post-item {
-  width: 33.333%;
+header .list-posts-top .wrapper .swiper .post-item {
   flex-shrink: 0;
   padding: 0 15px;
 }
-header .list-posts-top .wrapper ul .post-item .item-box {
+header .list-posts-top .wrapper .swiper .post-item .item-box {
   display: flex;
   box-shadow: 0 0 10px #1a1a1a;
   background: #fff;
 }
-header .list-posts-top .wrapper ul .post-item .item-box .img {
+header .list-posts-top .wrapper .swiper .post-item .item-box .img {
   width: 100px;
   flex-shrink: 0;
 }
-header .list-posts-top .wrapper ul .post-item .item-box .cate {
+header .list-posts-top .wrapper .swiper .post-item .item-box .cate {
   display: block;
   color: #999;
   font-size: 12px;
@@ -77,10 +81,10 @@ header .list-posts-top .wrapper ul .post-item .item-box .cate {
   line-height: 16px;
   margin-top: -2px;
 }
-header .list-posts-top .wrapper ul .post-item .item-box .content {
+header .list-posts-top .wrapper .swiper .post-item .item-box .content {
   padding: 8px 10px 8px 20px;
 }
-header .list-posts-top .wrapper ul .post-item .item-box .content .title {
+header .list-posts-top .wrapper .swiper .post-item .item-box .content .title {
   color: #333;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -89,11 +93,11 @@ header .list-posts-top .wrapper ul .post-item .item-box .content .title {
   max-height: 36px;
   overflow: hidden;
 }
-header .list-posts-top .wrapper ul .post-item .item-box .content .title:hover {
+header .list-posts-top .wrapper .swiper .post-item .item-box .content .title:hover {
   color: #777;
 }
-header .list-posts-top .wrapper .left,
-header .list-posts-top .wrapper .right {
+header .list-posts-top .wrapper .swiper-button-next,
+header .list-posts-top .wrapper .swiper-button-prev {
   position: absolute;
   border-color: #6ba834;
   background: #6ba834;
@@ -107,30 +111,21 @@ header .list-posts-top .wrapper .right {
   border-radius: 3px;
   top: 50%;
   transform: translateY(-50%);
+  margin-top: 0;
 }
-header .list-posts-top .wrapper .left [class*="icon-"],
-header .list-posts-top .wrapper .right [class*="icon-"] {
-  display: inline-block;
-  border-bottom: 4px solid transparent;
-  border-top: 4px solid transparent;
-  margin-top: 5px;
+header .list-posts-top .wrapper .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+header .list-posts-top .wrapper .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
 }
-header .list-posts-top .wrapper .left .icon-left,
-header .list-posts-top .wrapper .right .icon-left {
-  border-right: 5px solid #000;
-}
-header .list-posts-top .wrapper .left .icon-right,
-header .list-posts-top .wrapper .right .icon-right {
-  border-left: 5px solid #000;
-}
-header .list-posts-top .wrapper .left:hover,
-header .list-posts-top .wrapper .right:hover {
+
+header .list-posts-top .wrapper .swiper-button-next:hover,
+header .list-posts-top .wrapper .swiper-button-prev:hover {
   background: #fff;
 }
-header .list-posts-top .wrapper .left {
+header .list-posts-top .wrapper .swiper-button-prev {
   left: -20px;
 }
-header .list-posts-top .wrapper .right {
+header .list-posts-top .wrapper .swiper-button-next {
   right: -20px;
 }
 header #nav {
