@@ -113,8 +113,8 @@
       title="ETime"
     />
     <!-- css -->
+    <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css">
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/responsive.css" rel="stylesheet" />
     <!-- end css -->
   </head>
 
@@ -127,20 +127,23 @@
       src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"
     ></script>
 
-    <div class="d-2xl-block d-sm-none">
-      <header>
+
+    <!-- header -->
+    <header>
+      <!-- pc -->
+      <div class="d-2xl-block d-sm-none">
         <div class="top-line-head wrapper">
-          <div class="line-datetime"><span class="datetimenow"></span></div>
+          <div class="line-datetime"><span class="datetimenow">Thứ hai, ngày 14 tháng 10 năm 2024</span></div>
           <ul class="line-rss">
             <li>
-              <a href="#" target="_blank" rel="nofollow" title="facebook"
-                ><i class="icon icon-facebook"></i
-              ></a>
+              <a href="#" target="_blank" rel="nofollow" title="facebook">
+                <img src="./images/svg/facebook-gray.svg" alt="" class="icon">  
+              </a>
             </li>
             <li>
-              <a href="#" rel="nofollow" title="rss"
-                ><i class="icon icon-feed"></i
-              ></a>
+              <a href="#" rel="nofollow" title="rss">
+                <img src="./images/svg/rss-gray.svg" alt="" class="icon">
+              </a>
             </li>
           </ul>
         </div>
@@ -151,182 +154,104 @@
             data-slideshow-loop="true"
             data-slideshow-interval="5000"
           >
-            <ul data-slideshow-slides data-slideshow-scrollable="true">
-              <li
-                class="post-item"
-                data-newsid="20220507161636313"
-                data-slideshow-item
-              >
-                <div class="item-box">
-                  <a class="img" title="" href="#">
-                    <img
-                      src="./images/2.jpg"
-                      alt="Ban hành khung giá phát đi&#7879;n năm 2022, giá phát đi&#7879;n than tăng hơn 43%"
-                  /></a>
-                  <div class="content">
-                    <a title="Thời sự" class="cate" href="/etime/thoi-su.htm"
-                      >Thời sự</a
-                    >
-                    <h3>
-                      <a title="" class="title" href="#" data-trimline="2"
-                        >Ban hành khung giá phát điện năm 2022, giá phát điện
-                        than tăng hơn 43%</a
-                      >
-                    </h3>
+            <div class="swiper js__threeSlide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="post-item">
+                    <div class="item-box">
+    
+                      <a class="img" title="" href="#">
+                        <img
+                          src="./images/3.jpg"
+                          alt=""
+                      /></a>
+                      <div class="content">
+                        <a title="Thời sự" class="cate" href="/etime/thoi-su.htm"
+                          >Thời sự</a
+                        >
+                        <h3>
+                          <a title="" class="title" href="#" data-trimline="2"
+                            >Ban hành khung giá phát điện năm 2022, giá phát điện
+                            than tăng hơn 43%</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </li>
-
-              <li
-                class="post-item"
-                data-newsid="20220131115811326"
-                data-slideshow-item
-              >
-                <div class="item-box">
-                  <a
-                    class="img"
-                    title="Phong th&#7911;y ch&#7913;ng khoán năm Nhâm D&#7847;n: CLSA d&#7921; th&#7883; trư&#7901;ng t&#7889;t lên vào cu&#7889;i năm"
-                    href="/phong-thuy-chung-khoan-nam-nham-dan-clsa-du-thi-truong-tot-len-vao-cuoi-nam-20220131115811326.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/100_70/296231569849192448/2022/1/31/z3149238096640-cb0c4dc0a912ff7fcee25d319c00c352-1643604995923121023717-0-0-313-500-crop-1643605016856205200050.jpg"
-                      alt="Phong th&#7911;y ch&#7913;ng khoán năm Nhâm D&#7847;n: CLSA d&#7921; th&#7883; trư&#7901;ng t&#7889;t lên vào cu&#7889;i năm"
-                  /></a>
-                  <div class="content">
-                    <a
-                      title="Chứng khoán"
-                      class="cate"
-                      href="/etime/chung-khoan.htm"
-                      >Chứng khoán</a
-                    >
-                    <h3>
-                      <a
-                        title="Phong th&#7911;y ch&#7913;ng khoán năm Nhâm D&#7847;n: CLSA d&#7921; th&#7883; trư&#7901;ng t&#7889;t lên vào cu&#7889;i năm"
-                        class="title"
-                        href="/phong-thuy-chung-khoan-nam-nham-dan-clsa-du-thi-truong-tot-len-vao-cuoi-nam-20220131115811326.htm"
-                        data-trimline="2"
-                        >Phong thủy chứng khoán năm Nhâm Dần: CLSA dự thị trường
-                        tốt lên vào cuối năm</a
-                      >
-                    </h3>
+                <div class="swiper-slide">
+                  <div class="post-item">
+                    <div class="item-box">
+    
+                      <a class="img" title="" href="#">
+                        <img
+                          src="./images/3.jpg"
+                          alt=""
+                      /></a>
+                      <div class="content">
+                        <a title="Thời sự" class="cate" href="/etime/thoi-su.htm"
+                          >Thời sự</a
+                        >
+                        <h3>
+                          <a title="" class="title" href="#" data-trimline="2"
+                            >Ban hành khung giá phát điện năm 2022, giá phát điện
+                            than tăng hơn 43%</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </li>
-
-              <li
-                class="post-item"
-                data-newsid="20220303174308167"
-                data-slideshow-item
-              >
-                <div class="item-box">
-                  <a
-                    class="img"
-                    title="T&#7853;p đoàn Hòa Phát đ&#7847;u tư khu đô th&#7883; hi&#7879;n đ&#7841;i quy mô l&#7899;n t&#7841;i Hu&#7871; "
-                    href="/tap-doan-hoa-phat-dau-tu-khu-do-thi-hien-dai-quy-mo-lon-tai-hue-20220303174308167.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/100_70/296231569849192448/2022/3/3/kdta-16463040180831089878026-0-15-371-609-crop-1646304066767319192605.jpg"
-                      alt="T&#7853;p đoàn Hòa Phát đ&#7847;u tư khu đô th&#7883; hi&#7879;n đ&#7841;i quy mô l&#7899;n t&#7841;i Hu&#7871; "
-                  /></a>
-                  <div class="content">
-                    <a
-                      title="Bất động sản"
-                      class="cate"
-                      href="/etime/bat-dong-san.htm"
-                      >Bất động sản</a
-                    >
-                    <h3>
-                      <a
-                        title="T&#7853;p đoàn Hòa Phát đ&#7847;u tư khu đô th&#7883; hi&#7879;n đ&#7841;i quy mô l&#7899;n t&#7841;i Hu&#7871; "
-                        class="title"
-                        href="/tap-doan-hoa-phat-dau-tu-khu-do-thi-hien-dai-quy-mo-lon-tai-hue-20220303174308167.htm"
-                        data-trimline="2"
-                        >Tập đoàn Hòa Phát đầu tư khu đô thị hiện đại quy mô lớn
-                        tại Huế
-                      </a>
-                    </h3>
+                <div class="swiper-slide">
+                  <div class="post-item">
+                    <div class="item-box">
+    
+                      <a class="img" title="" href="#">
+                        <img
+                          src="./images/3.jpg"
+                          alt=""
+                      /></a>
+                      <div class="content">
+                        <a title="Thời sự" class="cate" href="/etime/thoi-su.htm"
+                          >Thời sự</a
+                        >
+                        <h3>
+                          <a title="" class="title" href="#" data-trimline="2"
+                            >Ban hành khung giá phát điện năm 2022, giá phát điện
+                            than tăng hơn 43%</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </li>
-
-              <li
-                class="post-item"
-                data-newsid="2022030317113587"
-                data-slideshow-item
-              >
-                <div class="item-box">
-                  <a
-                    class="img"
-                    title="Sân bay Sa Pa có t&#7893;ng m&#7913;c đ&#7847;u tư g&#7847;n 7.000 t&#7927; chính th&#7913;c đư&#7907;c đ&#7897;ng th&#7893;"
-                    href="/san-bay-sa-pa-co-tong-muc-dau-tu-gan-7000-ty-chinh-thuc-duoc-dong-tho-2022030317113587.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/100_70/296231569849192448/2022/3/3/phoi-canh-san-bay-sa-pa-1646302080395356805469-0-12-315-516-crop-16463021814021045768292.jpeg"
-                      alt="Sân bay Sa Pa có t&#7893;ng m&#7913;c đ&#7847;u tư g&#7847;n 7.000 t&#7927; chính th&#7913;c đư&#7907;c đ&#7897;ng th&#7893;"
-                  /></a>
-                  <div class="content">
-                    <a
-                      title="Bất động sản"
-                      class="cate"
-                      href="/etime/bat-dong-san.htm"
-                      >Bất động sản</a
-                    >
-                    <h3>
-                      <a
-                        title="Sân bay Sa Pa có t&#7893;ng m&#7913;c đ&#7847;u tư g&#7847;n 7.000 t&#7927; chính th&#7913;c đư&#7907;c đ&#7897;ng th&#7893;"
-                        class="title"
-                        href="/san-bay-sa-pa-co-tong-muc-dau-tu-gan-7000-ty-chinh-thuc-duoc-dong-tho-2022030317113587.htm"
-                        data-trimline="2"
-                        >Sân bay Sa Pa có tổng mức đầu tư gần 7.000 tỷ chính
-                        thức được động thổ</a
-                      >
-                    </h3>
+                <div class="swiper-slide">
+                  <div class="post-item">
+                    <div class="item-box">
+    
+                      <a class="img" title="" href="#">
+                        <img
+                          src="./images/3.jpg"
+                          alt=""
+                      /></a>
+                      <div class="content">
+                        <a title="Thời sự" class="cate" href="/etime/thoi-su.htm"
+                          >Thời sự</a
+                        >
+                        <h3>
+                          <a title="" class="title" href="#" data-trimline="2"
+                            >Ban hành khung giá phát điện năm 2022, giá phát điện
+                            than tăng hơn 43%</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </li>
-
-              <li
-                class="post-item"
-                data-newsid="20220303212110148"
-                data-slideshow-item
-              >
-                <div class="item-box">
-                  <a
-                    class="img"
-                    title="Giá lân, ph&#7889;t pho tăng m&#7841;nh g&#7847;n 40% trong 2 tháng đ&#7847;u 2022, ngành nào b&#7883; &#7843;nh hư&#7903;ng?"
-                    href="/gia-lan-phot-pho-tang-manh-gan-40-trong-2-thang-dau-2022-nganh-nao-bi-anh-huong-20220303212110148.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/100_70/296231569849192448/2022/3/3/img-1421334083-1-16463170761151631526120-0-63-333-596-crop-16463170900691277229726.jpeg"
-                      alt="Giá lân, ph&#7889;t pho tăng m&#7841;nh g&#7847;n 40% trong 2 tháng đ&#7847;u 2022, ngành nào b&#7883; &#7843;nh hư&#7903;ng?"
-                  /></a>
-                  <div class="content">
-                    <a
-                      title="Chứng khoán"
-                      class="cate"
-                      href="/etime/chung-khoan.htm"
-                      >Chứng khoán</a
-                    >
-                    <h3>
-                      <a
-                        title="Giá lân, ph&#7889;t pho tăng m&#7841;nh g&#7847;n 40% trong 2 tháng đ&#7847;u 2022, ngành nào b&#7883; &#7843;nh hư&#7903;ng?"
-                        class="title"
-                        href="/gia-lan-phot-pho-tang-manh-gan-40-trong-2-thang-dau-2022-nganh-nao-bi-anh-huong-20220303212110148.htm"
-                        data-trimline="2"
-                        >Giá lân, phốt pho tăng mạnh gần 40% trong 2 tháng đầu
-                        2022, ngành nào bị ảnh hưởng?</a
-                      >
-                    </h3>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div class="left" data-slideshow-prev>
-              <span class="icon-left"></span>
+              </div>
             </div>
-            <div class="right" data-slideshow-next>
-              <span class="icon-right"></span>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </div>
         <div id="nav">
@@ -338,19 +263,19 @@
                 /></a>
               </h1>
             </div>
-
+    
             <ul class="nav-bar">
               <li class="nav-item">
                 <a href="/etime/thoi-su.htm" title="Thời sự">Thời sự</a>
               </li>
-
+    
               <li class="nav-item">
                 <a
                   href="/etime/tai-chinh-nong-nghiep.htm"
                   title="Tài chính nông nghiệp"
                   >Tài chính nông nghiệp</a
                 >
-
+    
                 <ul>
                   <li>
                     <a
@@ -359,7 +284,7 @@
                       >Thị trường</a
                     >
                   </li>
-
+    
                   <li>
                     <a
                       href="/tai-chinh-nong-nghiep/toi-la-nong-dan.htm"
@@ -369,17 +294,17 @@
                   </li>
                 </ul>
               </li>
-
+    
               <li class="nav-item">
                 <a href="/etime/tai-chinh.htm" title="Tài chính ">Tài chính </a>
-
+    
                 <ul>
                   <li>
                     <a href="/tai-chinh/ngan-hang.htm" title="Ngân hàng"
                       >Ngân hàng</a
                     >
                   </li>
-
+    
                   <li>
                     <a href="/tai-chinh/bao-hiem.htm" title="Bảo hiểm"
                       >Bảo hiểm</a
@@ -387,19 +312,19 @@
                   </li>
                 </ul>
               </li>
-
+    
               <li class="nav-item">
                 <a href="/etime/chung-khoan.htm" title="Chứng khoán"
                   >Chứng khoán</a
                 >
               </li>
-
+    
               <li class="nav-item">
                 <a href="/etime/bat-dong-san.htm" title="Bất động sản"
                   >Bất động sản</a
                 >
               </li>
-
+    
               <li class="nav-item">
                 <a
                   href="/etime/kinh-doanh-phap-luat.htm"
@@ -413,7 +338,7 @@
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
           <div class="tradingview-widget-container__widget"></div>
-
+    
           <script
             type="text/javascript"
             src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
@@ -454,667 +379,12 @@
           </script>
         </div>
         <!-- TradingView Widget END -->
-      </header>
-      <div class="main">
-        <div class="wrapper">
-          <div class="main-block-content leftSidebar-1">
-            <div class="cate-heading">Thời sự</div>
-            <div class="detail-block">
-              <!-- title -->
-              <h1 class="detail-title">
-                Kỳ lân công nghệ đầu tiên của Việt Nam VNG gây bất ngờ với lợi
-                nhuận bết bát trước thềm niêm yết
-              </h1>
-              <!-- end title -->
-              <!-- line date -->
-              <div class="line-datetime">
-                <span data-role="publishdate"> 08/12/2022 13:59 GMT+7</span>
-                <div class="share">
-                  <div
-                    class="fb-like"
-                    data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm"
-                    data-layout="button_count"
-                    data-action="like"
-                    data-size="small"
-                    data-show-faces="true"
-                    data-share="true"
-                  ></div>
-                </div>
-                <div class="mail">
-                  <a
-                    class="share-mail"
-                    title="Email bài viết"
-                    href="#"
-                    rel="nofollow"
-                    ><i class="icon icon-envelope"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- end line date -->
-              <!-- sapo -->
-              <div class="sapo" data-role="sapo" style="text-align: justify">
-                Bộ Tài chính cho biết, tính hết ngày 31/11, thanh toán nguồn vốn
-                đầu tư bằng ngân sách Nhà nước mới chỉ đạt 338.319 tỷ đồng, đạt
-                58,3% kế hoạch được Chính phủ giao.
-              </div>
-              <!-- end sapo -->
-              <ul data-role="related-news" class="related-news">
-                <li class="item">
-                  <h4>
-                    <a title="" class="title" href="#"
-                      >Bộ trưởng Bộ Kế hoạch và Đầu tư giải thích việc chậm giải
-                      ngân đầu tư công</a
-                    >
-                  </h4>
-                </li>
-
-                <li class="item">
-                  <h4>
-                    <a title="" class="title" href="#"
-                      >TS. Lê Xuân Nghĩa: Cần giải phóng 1 triệu tỷ đầu tư công
-                      đang bị "nhốt" trong hệ thống ngân hàng</a
-                    >
-                  </h4>
-                </li>
-
-                <li class="item">
-                  <h4>
-                    <a title="" class="title" href="#"
-                      >TS Võ Trí Thành: Hàng trăm ngàn tỷ đồng ngân sách ở trái
-                      phiếu để đầu tư công chưa chi được</a
-                    >
-                  </h4>
-                </li>
-              </ul>
-              <!-- detail content -->
-              <div class="dt-content">
-                <div
-                  class="entry-body dtdefault clearfix js_change_size3"
-                  data-role="content"
-                >
-                  <h2>VNG gác lại giấc mơ IPO ở Mỹ</h2>
-                  <p>
-                    <b>Công ty Cổ phần VNG </b>vừa ra thông báo sẽ chốt danh
-                    sách cổ đông vào ngày 28/11/2022 để thực hiện đăng ký lưu
-                    ký tập trung tại Trung tâm Lưu ký Chứng khoán Việt Nam
-                    (VSD).<br />
-                  </p>
-                  <h3>
-                    VNG của ông Lê Hồng Minh làm ăn ra sao trước thềm niêm
-                    yết?
-                  </h3>
-                  <p>
-                    Trước thềm niêm yết, Công ty Cổ phần VNG của "bang chủ" Lê
-                    Hồng Minh ghi nhận kết quả kém tích cực về hoạt động kinh
-                    doanh và đầu tư.
-                  </p>
-                  <figure class="expNoEdit">
-                    <a
-                      data-fancybox="gallery"
-                      href="./images/2.jpg"
-                      data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy"
-                    >
-                      <img src="./images/2.jpg" alt="" />
-                    </a>
-                    <figcaption>
-                      <h2 class="expEdit">
-                        <em>VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy</em>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                  <p>
-                    VNG cho biết thêm, sau khi chốt danh sách cổ đông, công ty
-                    sẽ tiếp tục hoàn tất các thủ tục khác để lưu ký, đăng ký
-                    giao dịch trên sàn giao dịch UPCoM tại Sở Giao dịch chứng
-                    khoán Hà Nội theo đúng quy định của pháp luật hiện hành.
-                    Công ty cũng cho biết sẽ hỗ trợ các cổ đông lưu ký chứng
-                    khoán tại VSD.
-                  </p>
-                </div>
-              </div>
-              <!-- end detail content -->
-              <!-- related -->
-              <div class="box-related">
-                <!-- item -->
-                <div class="box-related-item">
-                  <!-- img -->
-                  <div class="box-related-img">
-                    <div class="">
-                      <div class="thumb-img">
-                        <a href="#" class="thumb-item thumb-5x3">
-                          <img class="" src="./images/4.jpg" alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end img -->
-                  <!-- content -->
-                  <div class="box-related-content">
-                    <!-- title -->
-                    <h3 class="box-related-title">
-                      <a href="#" class=""
-                        >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
-                        "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
-                        nhiệm</a
-                      >
-                    </h3>
-                    <!-- end title -->
-                    <!-- public -->
-                    <div class="box-related-public">
-                      14/11/2022 &nbsp;&nbsp;19:00
-                    </div>
-                    <!-- end public -->
-                  </div>
-                  <!-- end content -->
-                </div>
-                <!-- end item -->
-                <!-- item -->
-                <div class="box-related-item">
-                  <!-- img -->
-                  <div class="box-related-img">
-                    <div class="">
-                      <div class="thumb-img">
-                        <a href="#" class="thumb-item thumb-5x3">
-                          <img class="" src="./images/4.jpg" alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end img -->
-                  <!-- content -->
-                  <div class="box-related-content">
-                    <!-- title -->
-                    <h3 class="box-related-title">
-                      <a href="#" class=""
-                        >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
-                        "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
-                        nhiệm</a
-                      >
-                    </h3>
-                    <!-- end title -->
-                    <!-- public -->
-                    <div class="box-related-public">
-                      14/11/2022 &nbsp;&nbsp;19:00
-                    </div>
-                    <!-- end public -->
-                  </div>
-                  <!-- end content -->
-                </div>
-                <!-- end item -->
-                <!-- item -->
-                <div class="box-related-item">
-                  <!-- img -->
-                  <div class="box-related-img">
-                    <div class="">
-                      <div class="thumb-img">
-                        <a href="#" class="thumb-item thumb-5x3">
-                          <img class="" src="./images/4.jpg" alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end img -->
-                  <!-- content -->
-                  <div class="box-related-content">
-                    <!-- title -->
-                    <h3 class="box-related-title">
-                      <a href="#" class=""
-                        >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
-                        "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
-                        nhiệm</a
-                      >
-                    </h3>
-                    <!-- end title -->
-                    <!-- public -->
-                    <div class="box-related-public">
-                      14/11/2022 &nbsp;&nbsp;19:00
-                    </div>
-                    <!-- end public -->
-                  </div>
-                  <!-- end content -->
-                </div>
-                <!-- end item -->
-              </div>
-              <!-- end related -->
-              <!-- author -->
-              <div class="author">
-                <span data-role="source"> An Linh</span>
-              </div>
-              <!-- end author -->
-              <!-- tags -->
-              <div class="tag">
-                <div class="tags">
-                  <div class="tags-title">Tags:</div>
-                  <ul data-role="tags">
-                    <li>
-                      <a href="/von-dau-tu.html" title="vốn đầu tư"
-                        >vốn đầu tư</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/dau-tu-cong.html" title="đầu tư công"
-                        >đầu tư công</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/ngan-sach-nha-nuoc.html"
-                        title="ngân sách nhà nước"
-                        >ngân sách nhà nước</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/vay-uu-dai.html" title="vay ưu đãi"
-                        >vay ưu đãi</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/bo-tai-chinh.html" title="bộ tài chính"
-                        >bộ tài chính</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/trien-khai-thuc-hien.html"
-                        title="triển khai thực hiện"
-                        >triển khai thực hiện</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/dieu-chinh-quy-hoach.html"
-                        title="điều chỉnh quy hoạch"
-                        >điều chỉnh quy hoạch</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/bo-tu-phap.html" title="bộ tư pháp"
-                        >bộ tư pháp</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/co-quan-trung-uong.html"
-                        title="cơ quan trung ương"
-                        >cơ quan trung ương</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/toa-an-nhan-dan.html" title="tòa án nhân dân"
-                        >tòa án nhân dân</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/nhan-dan-toi-cao.html"
-                        title="Nhân dân Tối cao"
-                        >Nhân dân Tối cao</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/nghien-cuu-kha-thi.html"
-                        title="nghiên cứu khả thi"
-                        >nghiên cứu khả thi</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/tong-muc-dau-tu.html" title="tổng mức đầu tư"
-                        >tổng mức đầu tư</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/hop-dong-xay-dung.html"
-                        title="hợp đồng xây dựng"
-                        >hợp đồng xây dựng</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/quan-ly-nha-nuoc.html"
-                        title="quản lý nhà nước"
-                        >quản lý nhà nước</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/don-vi-tu-van.html" title="đơn vị tư vấn"
-                        >đơn vị tư vấn</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/bo-van-hoa.html" title="bộ văn hóa"
-                        >bộ văn hóa</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/thanh-tra-chinh-phu.html"
-                        title="thanh tra chính phủ"
-                        >thanh tra chính phủ</a
-                      >
-                    </li>
-
-                    <li>
-                      <a href="/gap-kho-khan.html" title="gặp khó khăn"
-                        >gặp khó khăn</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- end tags -->
-              <!-- share other -->
-              <div class="share-other">
-                <div class="share-items">
-                    <div class="fb-share-button" data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>
-                    <div class="fb-like" data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" data-layout="button_count" data-action="like" data-size="small"></div>
-                    <a class="itemshare-twitter" href="https://twitter.com/share?url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
-                    <a class="itemshare-reddit" href="https://reddit.com/submit?url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
-                    <a class="itemshare-linked" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
-                </div>
-            </div>
-              <!-- end share other -->
-
-              <!-- box samecate -->
-              <div class="box-samecate">
-                <div class="sc-title">
-                  <span>Cùng chuyên mục</span>
-                </div>
-                <!-- container -->
-                <div class="samecate-container">
-                  <!-- item -->
-                  <div class="samecate-item">
-                      <!-- img -->
-                      <div class="samecate-img">
-                        <div class="">
-                          <div class="thumb-img">
-                            <a href="#" class="thumb-item thumb-5x3">
-                              <img class="" src="./images/4.jpg" alt=""></a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end img -->
-                      <!-- title -->
-                      <h3 class="samecate-title">
-                        <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
-                      </h3>
-                      <!-- end title -->
-                  </div>
-                  <!-- end item -->
-                  <!-- item -->
-                  <div class="samecate-item">
-                      <!-- img -->
-                      <div class="samecate-img">
-                        <div class="">
-                          <div class="thumb-img">
-                            <a href="#" class="thumb-item thumb-5x3">
-                              <img class="" src="./images/4.jpg" alt=""></a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end img -->
-                      <!-- title -->
-                      <h3 class="samecate-title">
-                        <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
-                      </h3>
-                      <!-- end title -->
-                  </div>
-                  <!-- end item -->
-                  <!-- item -->
-                  <div class="samecate-item">
-                      <!-- img -->
-                      <div class="samecate-img">
-                        <div class="">
-                          <div class="thumb-img">
-                            <a href="#" class="thumb-item thumb-5x3">
-                              <img class="" src="./images/4.jpg" alt=""></a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end img -->
-                      <!-- title -->
-                      <h3 class="samecate-title">
-                        <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
-                      </h3>
-                      <!-- end title -->
-                  </div>
-                  <!-- end item -->
-                  
-              </div>
-                <!-- end container -->
-              </div>
-              <!-- end box samecate -->
-
-              <!-- box cmt -->
-              <div class="box-cmt">
-                <iframe src="https://id.danviet.vn/CommentV2.aspx?objId=20221208122655133&objType=1&objZoneId=306&objUrl=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm&objTitle=MTMlMjBjJUM2JUExJTIwcXVhbiUyMCUyMmtoJUMzJUI0bmclMjBiaSVFMSVCQSVCRnQlMjB0aSVDMyVBQXUlMjB0aSVFMSVCQiU4MW4lMjIlMkMlMjBnJUUxJUJBJUE3biUyMDEzJTIwdCVFMSVCQiVCNyUyMFVTRCUyMHYlRTElQkIlOTFuJTIwJUM0JTkxJUUxJUJBJUE3dSUyMHQlQzYlQjAlMjBjJUMzJUI0bmclMjAlQzQlOTFhbmclMjBiJUUxJUJCJThCJTIwJTIybmglRTElQkIlOTF0JTIwa2hvJTIy" style="position: relative; height: 580px; width: 100%; margin-top: 20px;"></iframe>
-            </div>
-              <!-- end box cmt -->
-            </div>
-          </div>
-          <div class="sidebar sidebar-small centerSidebar-1">
-            <div class="widget">
-              <div class="sb-title">
-                <span>Tin đọc nhiều</span>
-              </div>
-              <ul class="review-list">
-                <li class="item" data-newsid="20221207102040326">
-                  <a
-                    class="img"
-                    title="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
-                    href="/chinh-thuc-huy-quyet-dinh-dieu-chinh-nguoi-su-dung-dat-khu-do-thi-nghin-ty-tranh-chap-20221207102040326.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670382222926-16703822234111293433351.jpg"
-                      alt="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
-                  /></a>
-                  <a
-                    title="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
-                    class="title"
-                    href="/chinh-thuc-huy-quyet-dinh-dieu-chinh-nguoi-su-dung-dat-khu-do-thi-nghin-ty-tranh-chap-20221207102040326.htm"
-                    >Chính thức hủy quyết định điều chỉnh người sử dụng đất khu
-                    đô thị 'nghìn tỷ' tranh chấp</a
-                  >
-                </li>
-
-                <li class="item" data-newsid="20221207090307308">
-                  <a
-                    class="img"
-                    title="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
-                    href="/chung-khoan-apg-bi-phat-gan-1-ty-dong-20221207090307308.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670378211171-16703782113661727229468.jpg"
-                      alt="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
-                  /></a>
-                  <a
-                    title="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
-                    class="title"
-                    href="/chung-khoan-apg-bi-phat-gan-1-ty-dong-20221207090307308.htm"
-                    >Chứng khoán APG bị phạt gần 1 tỷ đồng</a
-                  >
-                </li>
-
-                <li class="item" data-newsid="20221207084620916">
-                  <a
-                    class="img"
-                    title="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
-                    href="/gia-xang-dau-hom-nay-7-12-gioi-dau-tu-thao-chay-khoi-thi-truong-gia-dau-truot-dai-20221207084620916.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/xang-1669427711978508195998-0-0-406-650-crop-16703772325261416605938.jpeg"
-                      alt="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
-                  /></a>
-                  <a
-                    title="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
-                    class="title"
-                    href="/gia-xang-dau-hom-nay-7-12-gioi-dau-tu-thao-chay-khoi-thi-truong-gia-dau-truot-dai-20221207084620916.htm"
-                    >Giá xăng dầu hôm nay 7/12: Giới đầu tư tháo chạy khỏi thị
-                    trường, giá dầu trượt dài</a
-                  >
-                </li>
-
-                <li class="item" data-newsid="20221207082253884">
-                  <a
-                    class="img"
-                    title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
-                    href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
-                  >
-                    <img
-                      src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670376099433-1670376099688346372707.jpg"
-                      alt="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
-                  /></a>
-                  <a
-                    title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
-                    class="title"
-                    href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
-                    >GeneStory trở thành quán quân cuộc thi VieChallenge</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sidebar sidebar-big rightSidebar-1">
-            <style>
-              .search-form input[type="text"] {
-                border: 1px solid #dedede;
-                color: #333;
-              }
-            </style>
-
-            <div class="sidebar-ads">
-              <img src="./images/ads_right.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <style>
-          .f-content .icon {
-            margin-right: 5px;
-          }
-        </style>
-        <div class="clearfix" id="adm_sticky_footer"></div>
-        <footer>
-          <div class="footer">
-            <div class="wrapper">
-              <div class="fmain">
-                <div class="footer-info">
-                  <div class="f-title"><span>Thông tin liên hệ</span></div>
-                  <div class="f-content">
-                    <address>
-                      <div>
-                        Chuyên trang tài chính nông nghiệp của Báo điện tử Dân
-                        Việt
-                      </div>
-                      <div>
-                        <i class="icon icon-map-marker"></i>Trụ sở: 13 Đường
-                        Thụy Khuê, Quận Tây Hồ, Hà Nội
-                      </div>
-                      <div>
-                        <i class="icon icon-map-marker"></i>Tòa soạn và trị sự:
-                        Lô E2, Dương Đình Nghệ, Quận Cầu Giấy, Hà Nội
-                      </div>
-                      <div>
-                        <span
-                          ><i class="icon icon-users"></i>Tổng biên tập Lưu
-                          Quang Định</span
-                        >
-                        <span
-                          ><i class="icon icon-users"></i>Phó TBT phụ trách :
-                          Phan Huy Hà</span
-                        >
-                        <span style="margin-left: -10px"
-                          ><i class="icon icon-users"></i>Thư ký toà soạn:
-                          Nguyễn Minh Huệ
-                        </span>
-                      </div>
-                      <div>
-                        <span
-                          ><i class="icon icon-envelope"></i
-                          ><a
-                            href="mailto:chuyentrangetime@gmail.com"
-                            title="liên hệ"
-                            >chuyentrangetime@gmail.com</a
-                          ></span
-                        >
-                        <span><i class="icon icon-phone"></i>090.713.6988</span>
-                        <span
-                          ><i class="icon icon-rss"></i
-                          ><a href="/danh-muc.rss" title="rss">RSS</a></span
-                        >
-                        <span>© etime.danviet.vn</span>
-                      </div>
-                      <div>
-                        <a
-                          href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/etimedanvietvn-1626259516"
-                          title="Chung nhan Tin Nhiem Mang"
-                          target="_blank"
-                          ><img
-                            src="./images/handle_cert.png"
-                            width="150px"
-                            height="auto"
-                            alt="Chung nhan Tin Nhiem Mang"
-                        /></a>
-                      </div>
-                      <div>
-                        Giấy phép số 14/GP-CBC cấp ngày 15/4/2022. ©Bản quyền
-                        thuộc chuyên trang Etime. Mọi hình thức sao chép phải
-                        được sự đồng ý bằng văn bản
-                      </div>
-                    </address>
-                  </div>
-                </div>
-                <div class="box-fb">
-                  <div
-                    class="fb-page"
-                    data-href="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
-                    data-tabs="timeline"
-                    data-width="300"
-                    data-height="70"
-                    data-small-header="false"
-                    data-adapt-container-width="true"
-                    data-hide-cover="false"
-                    data-show-facepile="true"
-                  >
-                    <blockquote
-                      cite="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
-                      class="fb-xfbml-parse-ignore"
-                    >
-                      <a
-                        href="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
-                        >Điểm tin kinh tế</a
-                      >
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
-    </div>
-
-    <div class="d-2xl-none d-sm-block">
-      <div id="admWrapsite">
-        <div id="container">
-          <header class="header-t">
+      <!-- end pc -->
+      <!-- mb -->
+      <div class="d-2xl-none d-sm-block">
+        <div class="container-main">
+          <div class="header-t">
             <div class="header fixed">
               <div class="nav">
                 <a href="javascript:;" class="menu-left">
@@ -1145,16 +415,13 @@
                     </li>
 
                     <li class="nav-item">
-                      <div class="nav-item-header">
-                        <a
-                          href="/etime/tai-chinh-nong-nghiep.htm"
-                          title="Tài chính nông nghiệp"
-                        >
-                          <i class="icon icon-angle-right"></i>
-                          Tài chính nông nghiệp
-                        </a>
-                        <i class="icon-down block"></i>
-                      </div>
+                        <div class="nav-item-header">
+                            <a href="/etime/tai-chinh-nong-nghiep.htm" title="Tài chính nông nghiệp">
+                              <i class="icon icon-angle-right"></i>
+                              Tài chính nông nghiệp
+                            </a>
+                            <i class="icon-down block"></i>
+                        </div>
 
                       <ul>
                         <li>
@@ -1177,16 +444,13 @@
                     </li>
 
                     <li class="nav-item">
-                      <div class="nav-item-header">
-                        <a
-                          href="/etime/tai-chinh-nong-nghiep.htm"
-                          title="Tài chính nông nghiệp"
-                        >
-                          <i class="icon icon-angle-right"></i>
-                          Tài chính nông nghiệp
-                        </a>
-                        <i class="icon-down block"></i>
-                      </div>
+                        <div class="nav-item-header">
+                            <a href="/etime/tai-chinh-nong-nghiep.htm" title="Tài chính nông nghiệp">
+                              <i class="icon icon-angle-right"></i>
+                              Tài chính nông nghiệp
+                            </a>
+                            <i class="icon-down block"></i>
+                        </div>
 
                       <ul>
                         <li>
@@ -1209,16 +473,13 @@
                     </li>
 
                     <li class="nav-item">
-                      <div class="nav-item-header">
-                        <a
-                          href="/etime/tai-chinh-nong-nghiep.htm"
-                          title="Tài chính nông nghiệp"
-                        >
-                          <i class="icon icon-angle-right"></i>
-                          Tài chính nông nghiệp
-                        </a>
-                        <i class="icon-down block"></i>
-                      </div>
+                        <div class="nav-item-header">
+                            <a href="/etime/tai-chinh-nong-nghiep.htm" title="Tài chính nông nghiệp">
+                              <i class="icon icon-angle-right"></i>
+                              Tài chính nông nghiệp
+                            </a>
+                            <i class="icon-down block"></i>
+                        </div>
 
                       <ul>
                         <li>
@@ -1262,138 +523,685 @@
                     <span>Bài đọc nhiều</span>
                   </div>
                   <ul class="list-top">
-                    <li class="item" data-newsid="20221207115543088">
-                      <a
-                        class="img"
-                        title="TT-Hu&#7871;: Thu ngân sách năm 2022 đ&#7841;t 12.701 t&#7927; đ&#7891;ng, tăng 12% so v&#7899;i cùng k&#7923;"
-                        href="/tt-hue-thu-ngan-sach-nam-2022-dat-12701-ty-dong-tang-12-so-voi-cung-ky-20221207115543088.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/7/du-an-hue1-16703888130792058009993-0-0-432-691-crop-1670388857926288540575.jpeg"
-                          alt="TT-Hu&#7871;: Thu ngân sách năm 2022 đ&#7841;t 12.701 t&#7927; đ&#7891;ng, tăng 12% so v&#7899;i cùng k&#7923;"
-                      /></a>
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
+                        </a>
+                      </div>
                       <h3>
                         <a
-                          title="TT-Hu&#7871;: Thu ngân sách năm 2022 đ&#7841;t 12.701 t&#7927; đ&#7891;ng, tăng 12% so v&#7899;i cùng k&#7923;"
+                          title=""
                           class="title"
-                          href="/tt-hue-thu-ngan-sach-nam-2022-dat-12701-ty-dong-tang-12-so-voi-cung-ky-20221207115543088.htm"
+                          href="#"
                           >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
                           tăng 12% so với cùng kỳ</a
                         >
                       </h3>
                     </li>
-
-                    <li class="item" data-newsid="20221207130047103">
-                      <a
-                        class="img"
-                        title="TT-Hu&#7871;: C&#7845;p phép 28 d&#7921; án m&#7899;i v&#7899;i t&#7893;ng v&#7889;n hơn 14.000 t&#7927;, 745 doanh nghi&#7879;p thành l&#7853;p m&#7899;i "
-                        href="/tt-hue-cap-phep-28-du-an-moi-voi-tong-von-hon-14000-ty-745-doanh-nghiep-thanh-lap-moi-20221207130047103.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/7/dn-16703927215081762183444-0-82-486-860-crop-1670392779021421267387.jpg"
-                          alt="TT-Hu&#7871;: C&#7845;p phép 28 d&#7921; án m&#7899;i v&#7899;i t&#7893;ng v&#7889;n hơn 14.000 t&#7927;, 745 doanh nghi&#7879;p thành l&#7853;p m&#7899;i "
-                      /></a>
-                      <h3>
-                        <a
-                          title="TT-Hu&#7871;: C&#7845;p phép 28 d&#7921; án m&#7899;i v&#7899;i t&#7893;ng v&#7889;n hơn 14.000 t&#7927;, 745 doanh nghi&#7879;p thành l&#7853;p m&#7899;i "
-                          class="title"
-                          href="/tt-hue-cap-phep-28-du-an-moi-voi-tong-von-hon-14000-ty-745-doanh-nghiep-thanh-lap-moi-20221207130047103.htm"
-                          >TT-Huế: Cấp phép 28 dự án mới với tổng vốn hơn 14.000
-                          tỷ, 745 doanh nghiệp thành lập mới
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
                         </a>
-                      </h3>
-                    </li>
-
-                    <li class="item" data-newsid="20221206141444839">
-                      <a
-                        class="img"
-                        title="Cienco4 tư nhân hoá ngu&#7891;n l&#7921;c, liên ti&#7871;p trúng th&#7847;u t&#7841;i các d&#7921; án giao thông"
-                        href="/cienco4-tu-nhan-hoa-nguon-luc-lien-tiep-trung-thau-tai-cac-du-an-giao-thong-20221206141444839.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/6/le-van-luong15-1657168808609730912305-83-0-1333-2000-crop-16703106492272080143006.jpg"
-                          alt="Cienco4 tư nhân hoá ngu&#7891;n l&#7921;c, liên ti&#7871;p trúng th&#7847;u t&#7841;i các d&#7921; án giao thông"
-                      /></a>
+                      </div>
                       <h3>
                         <a
-                          title="Cienco4 tư nhân hoá ngu&#7891;n l&#7921;c, liên ti&#7871;p trúng th&#7847;u t&#7841;i các d&#7921; án giao thông"
+                          title=""
                           class="title"
-                          href="/cienco4-tu-nhan-hoa-nguon-luc-lien-tiep-trung-thau-tai-cac-du-an-giao-thong-20221206141444839.htm"
-                          >Cienco4 tư nhân hoá nguồn lực, liên tiếp trúng thầu
-                          tại các dự án giao thông</a
+                          href="#"
+                          >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
+                          tăng 12% so với cùng kỳ</a
                         >
                       </h3>
                     </li>
+                    <!-- end item -->
 
-                    <li class="item" data-newsid="20221207082253884">
-                      <a
-                        class="img"
-                        title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
-                        href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/7/avatar1670376099433-1670376099688346372707.jpg"
-                          alt="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
-                      /></a>
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
+                        </a>
+                      </div>
                       <h3>
                         <a
-                          title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
+                          title=""
                           class="title"
-                          href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
-                          >GeneStory trở thành quán quân cuộc thi
-                          VieChallenge</a
+                          href="#"
+                          >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
+                          tăng 12% so với cùng kỳ</a
                         >
                       </h3>
                     </li>
+                    <!-- end item -->
 
-                    <li class="item" data-newsid="20221207081727394">
-                      <a
-                        class="img"
-                        title="Vi&#7879;t Nam nh&#7853;p g&#7847;n 1 tri&#7879;u t&#7845;n g&#7841;o: C&#7847;n ki&#7875;m soát ch&#7863;t"
-                        href="/viet-nam-nhap-gan-1-trieu-tan-gao-can-kiem-soat-chat-20221207081727394.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/7/avatar1670375561597-16703755619812132606985.jpg"
-                          alt="Vi&#7879;t Nam nh&#7853;p g&#7847;n 1 tri&#7879;u t&#7845;n g&#7841;o: C&#7847;n ki&#7875;m soát ch&#7863;t"
-                      /></a>
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
+                        </a>
+                      </div>
                       <h3>
                         <a
-                          title="Vi&#7879;t Nam nh&#7853;p g&#7847;n 1 tri&#7879;u t&#7845;n g&#7841;o: C&#7847;n ki&#7875;m soát ch&#7863;t"
+                          title=""
                           class="title"
-                          href="/viet-nam-nhap-gan-1-trieu-tan-gao-can-kiem-soat-chat-20221207081727394.htm"
-                          >Việt Nam nhập gần 1 triệu tấn gạo: Cần kiểm soát
-                          chặt</a
+                          href="#"
+                          >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
+                          tăng 12% so với cùng kỳ</a
                         >
                       </h3>
                     </li>
-
-                    <li class="item" data-newsid="20221206214807725">
-                      <a
-                        class="img"
-                        title="Ngư&#7901;i dân Hu&#7871; s&#7855;p đư&#7907;c &#8220;đi ch&#7907; ki&#7875;u m&#7899;i&#8221; v&#7899;i mô hình tr&#7841;m Refill station"
-                        href="/nguoi-dan-hue-sap-duoc-di-cho-kieu-moi-voi-mo-hinh-tram-refill-station-20221206214807725.htm"
-                      >
-                        <img
-                          src="https://danviet.mediacdn.vn/zoom/70_50/296231569849192448/2022/12/6/tram-nap-16703379930261234894422-0-0-792-1267-crop-16703380041282044236727.jpg"
-                          alt="Ngư&#7901;i dân Hu&#7871; s&#7855;p đư&#7907;c &#8220;đi ch&#7907; ki&#7875;u m&#7899;i&#8221; v&#7899;i mô hình tr&#7841;m Refill station"
-                      /></a>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
+                        </a>
+                      </div>
                       <h3>
                         <a
-                          title="Ngư&#7901;i dân Hu&#7871; s&#7855;p đư&#7907;c &#8220;đi ch&#7907; ki&#7875;u m&#7899;i&#8221; v&#7899;i mô hình tr&#7841;m Refill station"
+                          title=""
                           class="title"
-                          href="/nguoi-dan-hue-sap-duoc-di-cho-kieu-moi-voi-mo-hinh-tram-refill-station-20221206214807725.htm"
-                          >Người dân Huế sắp được “đi chợ kiểu mới” với mô hình
-                          trạm Refill station</a
+                          href="#"
+                          >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
+                          tăng 12% so với cùng kỳ</a
                         >
                       </h3>
                     </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="item">
+                      <div class="img">
+                        <a href="#" class="image-wrapper">
+                          <img src="./images/2.jpg" alt="">
+                        </a>
+                      </div>
+                      <h3>
+                        <a
+                          title=""
+                          class="title"
+                          href="#"
+                          >TT-Huế: Thu ngân sách năm 2022 đạt 12.701 tỷ đồng,
+                          tăng 12% so với cùng kỳ</a
+                        >
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    
                   </ul>
                 </div>
               </div>
               <div class="side-overlay"></div>
             </div>
-          </header>
+          </div>
+        </div>
+      </div>
+      <!-- end mb -->
+    </header>
+    <!-- end header -->
 
+    <!-- main -->
+    <main>
+      <!-- pc -->
+       <div class="d-2xl-block d-sm-none">
+        <div class="main">
+          <div class="wrapper">
+            <div class="main-block-content leftSidebar-1">
+              <div class="cate-heading">Thời sự</div>
+              <div class="detail-block">
+                <!-- title -->
+                <h1 class="detail-title">
+                  Kỳ lân công nghệ đầu tiên của Việt Nam VNG gây bất ngờ với lợi
+                  nhuận bết bát trước thềm niêm yết
+                </h1>
+                <!-- end title -->
+                <!-- line date -->
+                <div class="line-datetime">
+                  <span data-role="publishdate"> 08/12/2022 13:59 GMT+7</span>
+                  <div class="share">
+                    <div
+                      class="fb-like"
+                      data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm"
+                      data-layout="button_count"
+                      data-action="like"
+                      data-size="small"
+                      data-show-faces="true"
+                      data-share="true"
+                    ></div>
+                  </div>
+                  <div class="mail">
+                    <a
+                      class="share-mail"
+                      title="Email bài viết"
+                      href="#"
+                      rel="nofollow"
+                      ><i class="icon icon-envelope"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- end line date -->
+                <!-- sapo -->
+                <div class="sapo" data-role="sapo" style="text-align: justify">
+                  Bộ Tài chính cho biết, tính hết ngày 31/11, thanh toán nguồn vốn
+                  đầu tư bằng ngân sách Nhà nước mới chỉ đạt 338.319 tỷ đồng, đạt
+                  58,3% kế hoạch được Chính phủ giao.
+                </div>
+                <!-- end sapo -->
+                <ul data-role="related-news" class="related-news">
+                  <li class="item">
+                    <h4>
+                      <a title="" class="title" href="#"
+                        >Bộ trưởng Bộ Kế hoạch và Đầu tư giải thích việc chậm giải
+                        ngân đầu tư công</a
+                      >
+                    </h4>
+                  </li>
+  
+                  <li class="item">
+                    <h4>
+                      <a title="" class="title" href="#"
+                        >TS. Lê Xuân Nghĩa: Cần giải phóng 1 triệu tỷ đầu tư công
+                        đang bị "nhốt" trong hệ thống ngân hàng</a
+                      >
+                    </h4>
+                  </li>
+  
+                  <li class="item">
+                    <h4>
+                      <a title="" class="title" href="#"
+                        >TS Võ Trí Thành: Hàng trăm ngàn tỷ đồng ngân sách ở trái
+                        phiếu để đầu tư công chưa chi được</a
+                      >
+                    </h4>
+                  </li>
+                </ul>
+                <!-- detail content -->
+                <div class="dt-content">
+                  <div
+                    class="entry-body dtdefault clearfix js_change_size3"
+                    data-role="content"
+                  >
+                    <h2>VNG gác lại giấc mơ IPO ở Mỹ</h2>
+                    <p>
+                      <b>Công ty Cổ phần VNG </b>vừa ra thông báo sẽ chốt danh
+                      sách cổ đông vào ngày 28/11/2022 để thực hiện đăng ký lưu
+                      ký tập trung tại Trung tâm Lưu ký Chứng khoán Việt Nam
+                      (VSD).<br />
+                    </p>
+                    <h3>
+                      VNG của ông Lê Hồng Minh làm ăn ra sao trước thềm niêm
+                      yết?
+                    </h3>
+                    <p>
+                      Trước thềm niêm yết, Công ty Cổ phần VNG của "bang chủ" Lê
+                      Hồng Minh ghi nhận kết quả kém tích cực về hoạt động kinh
+                      doanh và đầu tư.
+                    </p>
+                    <figure class="expNoEdit">
+                      <a
+                        data-fancybox="gallery"
+                        href="./images/2.jpg"
+                        data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy"
+                      >
+                        <img src="./images/2.jpg" alt="" />
+                      </a>
+                      <figcaption>
+                        <h2 class="expEdit">
+                          <em>VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy</em>
+                        </h2>
+                      </figcaption>
+                    </figure>
+                    <p>
+                      VNG cho biết thêm, sau khi chốt danh sách cổ đông, công ty
+                      sẽ tiếp tục hoàn tất các thủ tục khác để lưu ký, đăng ký
+                      giao dịch trên sàn giao dịch UPCoM tại Sở Giao dịch chứng
+                      khoán Hà Nội theo đúng quy định của pháp luật hiện hành.
+                      Công ty cũng cho biết sẽ hỗ trợ các cổ đông lưu ký chứng
+                      khoán tại VSD.
+                    </p>
+                  </div>
+                </div>
+                <!-- end detail content -->
+                <!-- related -->
+                <div class="box-related">
+                  <!-- item -->
+                  <div class="box-related-item">
+                    <!-- img -->
+                    <div class="box-related-img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/4.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="box-related-content">
+                      <!-- title -->
+                      <h3 class="box-related-title">
+                        <a href="#" class=""
+                          >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
+                          "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
+                          nhiệm</a
+                        >
+                      </h3>
+                      <!-- end title -->
+                      <!-- public -->
+                      <div class="box-related-public">
+                        14/11/2022 &nbsp;&nbsp;19:00
+                      </div>
+                      <!-- end public -->
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="box-related-item">
+                    <!-- img -->
+                    <div class="box-related-img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/4.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="box-related-content">
+                      <!-- title -->
+                      <h3 class="box-related-title">
+                        <a href="#" class=""
+                          >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
+                          "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
+                          nhiệm</a
+                        >
+                      </h3>
+                      <!-- end title -->
+                      <!-- public -->
+                      <div class="box-related-public">
+                        14/11/2022 &nbsp;&nbsp;19:00
+                      </div>
+                      <!-- end public -->
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="box-related-item">
+                    <!-- img -->
+                    <div class="box-related-img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/4.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="box-related-content">
+                      <!-- title -->
+                      <h3 class="box-related-title">
+                        <a href="#" class=""
+                          >Thị trường trái phiếu doanh nghiệp khiến chuyên gia
+                          "kinh ngạc", Bộ Tài chính không thể chối bỏ trách
+                          nhiệm</a
+                        >
+                      </h3>
+                      <!-- end title -->
+                      <!-- public -->
+                      <div class="box-related-public">
+                        14/11/2022 &nbsp;&nbsp;19:00
+                      </div>
+                      <!-- end public -->
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                </div>
+                <!-- end related -->
+                <!-- author -->
+                <div class="author">
+                  <span data-role="source"> An Linh</span>
+                </div>
+                <!-- end author -->
+                <!-- tags -->
+                <div class="tag">
+                  <div class="tags">
+                    <div class="tags-title">Tags:</div>
+                    <ul data-role="tags">
+                      <li>
+                        <a href="/von-dau-tu.html" title="vốn đầu tư"
+                          >vốn đầu tư</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/dau-tu-cong.html" title="đầu tư công"
+                          >đầu tư công</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/ngan-sach-nha-nuoc.html"
+                          title="ngân sách nhà nước"
+                          >ngân sách nhà nước</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/vay-uu-dai.html" title="vay ưu đãi"
+                          >vay ưu đãi</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/bo-tai-chinh.html" title="bộ tài chính"
+                          >bộ tài chính</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/trien-khai-thuc-hien.html"
+                          title="triển khai thực hiện"
+                          >triển khai thực hiện</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/dieu-chinh-quy-hoach.html"
+                          title="điều chỉnh quy hoạch"
+                          >điều chỉnh quy hoạch</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/bo-tu-phap.html" title="bộ tư pháp"
+                          >bộ tư pháp</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/co-quan-trung-uong.html"
+                          title="cơ quan trung ương"
+                          >cơ quan trung ương</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/toa-an-nhan-dan.html" title="tòa án nhân dân"
+                          >tòa án nhân dân</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/nhan-dan-toi-cao.html"
+                          title="Nhân dân Tối cao"
+                          >Nhân dân Tối cao</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/nghien-cuu-kha-thi.html"
+                          title="nghiên cứu khả thi"
+                          >nghiên cứu khả thi</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/tong-muc-dau-tu.html" title="tổng mức đầu tư"
+                          >tổng mức đầu tư</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/hop-dong-xay-dung.html"
+                          title="hợp đồng xây dựng"
+                          >hợp đồng xây dựng</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/quan-ly-nha-nuoc.html"
+                          title="quản lý nhà nước"
+                          >quản lý nhà nước</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/don-vi-tu-van.html" title="đơn vị tư vấn"
+                          >đơn vị tư vấn</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/bo-van-hoa.html" title="bộ văn hóa"
+                          >bộ văn hóa</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a
+                          href="/thanh-tra-chinh-phu.html"
+                          title="thanh tra chính phủ"
+                          >thanh tra chính phủ</a
+                        >
+                      </li>
+  
+                      <li>
+                        <a href="/gap-kho-khan.html" title="gặp khó khăn"
+                          >gặp khó khăn</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end tags -->
+                <!-- share other -->
+                <div class="share-other">
+                  <div class="share-items">
+                      <div class="fb-share-button" data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>
+                      <div class="fb-like" data-href="https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" data-layout="button_count" data-action="like" data-size="small"></div>
+                      <a class="itemshare-twitter" href="https://twitter.com/share?url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
+                      <a class="itemshare-reddit" href="https://reddit.com/submit?url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
+                      <a class="itemshare-linked" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm" target="_blank"></a>
+                  </div>
+              </div>
+                <!-- end share other -->
+  
+                <!-- box samecate -->
+                <div class="box-samecate">
+                  <div class="sc-title">
+                    <span>Cùng chuyên mục</span>
+                  </div>
+                  <!-- container -->
+                  <div class="samecate-container">
+                    <!-- item -->
+                    <div class="samecate-item">
+                        <!-- img -->
+                        <div class="samecate-img">
+                          <div class="">
+                            <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/4.jpg" alt=""></a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                        <!-- title -->
+                        <h3 class="samecate-title">
+                          <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
+                        </h3>
+                        <!-- end title -->
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="samecate-item">
+                        <!-- img -->
+                        <div class="samecate-img">
+                          <div class="">
+                            <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/4.jpg" alt=""></a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                        <!-- title -->
+                        <h3 class="samecate-title">
+                          <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
+                        </h3>
+                        <!-- end title -->
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="samecate-item">
+                        <!-- img -->
+                        <div class="samecate-img">
+                          <div class="">
+                            <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/4.jpg" alt=""></a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                        <!-- title -->
+                        <h3 class="samecate-title">
+                          <a href="#" class="">Kể chuyện làng: Cầu khỉ ơi!</a>
+                        </h3>
+                        <!-- end title -->
+                    </div>
+                    <!-- end item -->
+                    
+                </div>
+                  <!-- end container -->
+                </div>
+                <!-- end box samecate -->
+  
+                <!-- box cmt -->
+                <div class="box-cmt">
+                  <iframe src="https://id.danviet.vn/CommentV2.aspx?objId=20221208122655133&objType=1&objZoneId=306&objUrl=https://etime.danviet.vn/13-co-quan-khong-biet-tieu-tien-gan-13-ty-usd-von-dau-tu-cong-dang-bi-nhot-kho-20221208122655133.htm&objTitle=MTMlMjBjJUM2JUExJTIwcXVhbiUyMCUyMmtoJUMzJUI0bmclMjBiaSVFMSVCQSVCRnQlMjB0aSVDMyVBQXUlMjB0aSVFMSVCQiU4MW4lMjIlMkMlMjBnJUUxJUJBJUE3biUyMDEzJTIwdCVFMSVCQiVCNyUyMFVTRCUyMHYlRTElQkIlOTFuJTIwJUM0JTkxJUUxJUJBJUE3dSUyMHQlQzYlQjAlMjBjJUMzJUI0bmclMjAlQzQlOTFhbmclMjBiJUUxJUJCJThCJTIwJTIybmglRTElQkIlOTF0JTIwa2hvJTIy" style="position: relative; height: 580px; width: 100%; margin-top: 20px;"></iframe>
+              </div>
+                <!-- end box cmt -->
+              </div>
+            </div>
+            <div class="sidebar sidebar-small centerSidebar-1">
+              <div class="widget">
+                <div class="sb-title">
+                  <span>Tin đọc nhiều</span>
+                </div>
+                <ul class="review-list">
+                  <li class="item" data-newsid="20221207102040326">
+                    <a
+                      class="img"
+                      title="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
+                      href="/chinh-thuc-huy-quyet-dinh-dieu-chinh-nguoi-su-dung-dat-khu-do-thi-nghin-ty-tranh-chap-20221207102040326.htm"
+                    >
+                      <img
+                        src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670382222926-16703822234111293433351.jpg"
+                        alt="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
+                    /></a>
+                    <a
+                      title="Chính th&#7913;c h&#7911;y quy&#7871;t đ&#7883;nh đi&#7873;u ch&#7881;nh ngư&#7901;i s&#7917; d&#7909;ng đ&#7845;t khu đô th&#7883; &#39;nghìn t&#7927;&#39; tranh ch&#7845;p"
+                      class="title"
+                      href="/chinh-thuc-huy-quyet-dinh-dieu-chinh-nguoi-su-dung-dat-khu-do-thi-nghin-ty-tranh-chap-20221207102040326.htm"
+                      >Chính thức hủy quyết định điều chỉnh người sử dụng đất khu
+                      đô thị 'nghìn tỷ' tranh chấp</a
+                    >
+                  </li>
+  
+                  <li class="item" data-newsid="20221207090307308">
+                    <a
+                      class="img"
+                      title="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
+                      href="/chung-khoan-apg-bi-phat-gan-1-ty-dong-20221207090307308.htm"
+                    >
+                      <img
+                        src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670378211171-16703782113661727229468.jpg"
+                        alt="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
+                    /></a>
+                    <a
+                      title="Ch&#7913;ng khoán APG b&#7883; ph&#7841;t g&#7847;n 1 t&#7927; đ&#7891;ng"
+                      class="title"
+                      href="/chung-khoan-apg-bi-phat-gan-1-ty-dong-20221207090307308.htm"
+                      >Chứng khoán APG bị phạt gần 1 tỷ đồng</a
+                    >
+                  </li>
+  
+                  <li class="item" data-newsid="20221207084620916">
+                    <a
+                      class="img"
+                      title="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
+                      href="/gia-xang-dau-hom-nay-7-12-gioi-dau-tu-thao-chay-khoi-thi-truong-gia-dau-truot-dai-20221207084620916.htm"
+                    >
+                      <img
+                        src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/xang-1669427711978508195998-0-0-406-650-crop-16703772325261416605938.jpeg"
+                        alt="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
+                    /></a>
+                    <a
+                      title="Giá xăng d&#7847;u hôm nay 7/12: Gi&#7899;i đ&#7847;u tư tháo ch&#7841;y kh&#7887;i th&#7883; trư&#7901;ng, giá d&#7847;u trư&#7907;t dài"
+                      class="title"
+                      href="/gia-xang-dau-hom-nay-7-12-gioi-dau-tu-thao-chay-khoi-thi-truong-gia-dau-truot-dai-20221207084620916.htm"
+                      >Giá xăng dầu hôm nay 7/12: Giới đầu tư tháo chạy khỏi thị
+                      trường, giá dầu trượt dài</a
+                    >
+                  </li>
+  
+                  <li class="item" data-newsid="20221207082253884">
+                    <a
+                      class="img"
+                      title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
+                      href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
+                    >
+                      <img
+                        src="https://danviet.mediacdn.vn/zoom/160_110/296231569849192448/2022/12/7/avatar1670376099433-1670376099688346372707.jpg"
+                        alt="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
+                    /></a>
+                    <a
+                      title="GeneStory tr&#7903; thành quán quân cu&#7897;c thi VieChallenge"
+                      class="title"
+                      href="/genestory-tro-thanh-quan-quan-cuoc-thi-viechallenge-20221207082253884.htm"
+                      >GeneStory trở thành quán quân cuộc thi VieChallenge</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="sidebar sidebar-big rightSidebar-1">
+  
+              <div class="sidebar-ads">
+                <img src="./images/ads_right.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="clearfix" id="adm_sticky_footer"></div>
+        </div>
+       </div>
+      <!-- end pc -->
+       
+      <!-- mb -->
+       <div class="d-2xl-none d-sm-block">
+        <div class="container">
           <div class="mainbody">
             <div class="wrapper detail-mb">
               <div class="title-main">
@@ -1768,8 +1576,119 @@
               </div>
             </div>
           </div>
+        </div>
+       </div>
+      <!-- end mb -->
+    </main>
+    <!-- end main -->
 
-          <footer>
+
+    <!-- footer -->
+    <footer>
+      <!-- pc -->
+       <div class="d-2xl-block d-sm-none">
+        <div class="footer">
+          <div class="wrapper">
+            <div class="fmain">
+              <div class="footer-info">
+                <div class="f-title"><span>Thông tin liên hệ</span></div>
+                <div class="f-content">
+                  <address>
+                    <div>
+                      Chuyên trang tài chính nông nghiệp của Báo điện tử Dân
+                      Việt
+                    </div>
+                    <div>
+                      <i class="icon icon-map-marker"></i>Trụ sở: 13 Đường
+                      Thụy Khuê, Quận Tây Hồ, Hà Nội
+                    </div>
+                    <div>
+                      <i class="icon icon-map-marker"></i>Tòa soạn và trị sự:
+                      Lô E2, Dương Đình Nghệ, Quận Cầu Giấy, Hà Nội
+                    </div>
+                    <div>
+                      <span
+                        ><i class="icon icon-users"></i>Tổng biên tập Lưu
+                        Quang Định</span
+                      >
+                      <span
+                        ><i class="icon icon-users"></i>Phó TBT phụ trách :
+                        Phan Huy Hà</span
+                      >
+                      <span style="margin-left: -10px"
+                        ><i class="icon icon-users"></i>Thư ký toà soạn:
+                        Nguyễn Minh Huệ
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        ><i class="icon icon-envelope"></i
+                        ><a
+                          href="mailto:chuyentrangetime@gmail.com"
+                          title="liên hệ"
+                          >chuyentrangetime@gmail.com</a
+                        ></span
+                      >
+                      <span><i class="icon icon-phone"></i>090.713.6988</span>
+                      <span
+                        ><i class="icon icon-rss"></i
+                        ><a href="/danh-muc.rss" title="rss">RSS</a></span
+                      >
+                      <span>© etime.danviet.vn</span>
+                    </div>
+                    <div>
+                      <a
+                        href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/etimedanvietvn-1626259516"
+                        title="Chung nhan Tin Nhiem Mang"
+                        target="_blank"
+                        ><img
+                          src="./images/handle_cert.png"
+                          width="150px"
+                          height="auto"
+                          alt="Chung nhan Tin Nhiem Mang"
+                      /></a>
+                    </div>
+                    <div>
+                      Giấy phép số 14/GP-CBC cấp ngày 15/4/2022. ©Bản quyền
+                      thuộc chuyên trang Etime. Mọi hình thức sao chép phải
+                      được sự đồng ý bằng văn bản
+                    </div>
+                  </address>
+                </div>
+              </div>
+              <div class="box-fb">
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
+                  data-tabs="timeline"
+                  data-width="300"
+                  data-height="70"
+                  data-small-header="false"
+                  data-adapt-container-width="true"
+                  data-hide-cover="false"
+                  data-show-facepile="true"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a
+                      href="https://www.facebook.com/etimedanviet/?modal=admin_todo_tour"
+                      >Điểm tin kinh tế</a
+                    >
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      <!-- end pc -->
+
+      <!-- mb -->
+       <div class="d-2xl-none d-sm-block">
+        <div id="admWrapsite">
+          <div class="container">
             <div class="footer-title">
               <span
                 >Chuyên trang tài chính nông nghiệp của Báo điện tử Dân
@@ -1817,17 +1736,24 @@
                 bằng văn bản
               </li>
             </ul>
-          </footer>
+          </div>
         </div>
-      </div>
-    </div>
+       </div>
+      <!-- end mb -->
+    </footer>
+    <!-- end footer -->
+
+    
     <a id="__back2top" title="Trở về đầu trang"
       ><i class="icon icon-back2top"></i
     ></a>
-    <script src="./js/home.1.0.min.js"></script>
+    <!-- <script src="./js/home.1.0.min.js"></script> -->
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/swiper/swiper-bundle.min.js"></script>
     <script src="./js/ResizeSensor.js"></script>
     <script src="./js/theia-sticky-sidebar.js"></script>
     <script src="./js/main.js"></script>
+    
   </body>
 </html>
 
