@@ -1,5 +1,5 @@
 // max width 1280px
-@media (max-width: 80em) {
+@media (max-width: 1280px) {
   .d-xl-none {
     display: none;
   }
@@ -12,7 +12,7 @@
   /*-------------------------------------------------------------*/
 }
 // max width 1024px
-@media (max-width: 64em) {
+@media (max-width: 1024px) {
   .d-lg-none {
     display: none;
   }
@@ -22,13 +22,210 @@
   .d-lg-flex {
     display: flex;
   }
+
+  .sidebar-small,
+  .sidebar-big {
+    display: none;
+  }
+  .main .wrapper .main-block-content {
+    padding: 30px 15px 60px;
+    position: relative;
+    width: 100%;
+  }
+  /*----------------------------------------------------------------------------mobile*/
+.detail-mb {
+  & .cate-heading {
+    margin-bottom: 20px;
+    color: #3daa12;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: none;
+    padding-bottom: 0;
+
+  }
+}
+
+.detail-mb-main {
+  & .detail-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3daa12;
+  }
+
+  & .line-datetime {
+    margin-bottom: 20px;
+
+    & > span {
+      font-size: 13px;
+      color: #999;
+    }
+
+    & .share {
+      display: none;
+      margin: 0 10px;
+    }
+
+    & .mail {
+      color: #888;
+      font-size: 20px;
+      display: none;
+    }
+  }
+
+  & .sapo {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  & .dt-content {
+    font-size: 20px;
+  }
+  & p {
+    font-family: "Hind", sans-serif;
+    line-height: 34px;
+  }
+
+  & .box-related-item .box-related-img {
+    width: 35%;
+    flex-shrink: 0;
+  }
+
+  & .box-related-title {
+    font-family: "Arial";
+    font-size: 14px !important;
+  }
+
+  & .author {
+    text-align: right;
+    margin-right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  & .tag {
+    margin: 15px 0 30px;
+
+    & .tags {
+      display: flex;
+      align-items: baseline;
+      font-size: 15px;
+
+      & .tags-title {
+        margin-right: 10px;
+      }
+
+      & > ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        & li {
+          margin-right: 5px;
+          & a {
+            display: block;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            padding: 6px;
+            color: #3daa12;
+          }
+        }
+      }
+    }
+  }
+
+  & .share-other {
+    margin-bottom: 40px;
+
+    & .share-items {
+      display: flex;
+      align-items: center;
+
+      & .fb-share-button,
+      & .fb-like {
+        margin-right: 5px;
+      }
+
+      & [class*="itemshare-"] {
+        width: 20px;
+        height: 20px;
+        background-image: url("../images/sprite-socials.png");
+        background-repeat: no-repeat;
+        background-size: 62px;
+        margin-right: 5px;
+      }
+    }
+
+    & .itemshare-twitter {
+      background-position: -21px 0;
+    }
+
+    & .itemshare-reddit {
+      background-position: 0 -21px;
+    }
+
+    & .itemshare-linked {
+      background-position: -42px 0;
+    }
+  }
+
+  & .box-related-mb {
+    margin: 30px 0;
+
+    & .rl-title {
+      color: #222;
+      font-size: 15px;
+      font-family: "Open Sans", Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      margin: 0 0 15px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #e1e1e1;
+
+      & span {
+        display: inline-block;
+        padding-bottom: 16px;
+        padding-right: 5px;
+        border-bottom: 1px solid #6ebf71;
+      }
+    }
+
+    & .item {
+      display: flex;
+      padding: 5px 0;
+
+      &:before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        background: #333;
+        display: inline-block;
+        flex-shrink: 0;
+        margin-right: 10px;
+        margin-top: 8px;
+      }
+
+      & .title {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        color: #666;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+    }
+  }
+  & .samecate-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px 20px;
+  }
+}
   /*-------------------------------------------------------------*/
 }
 // max width 992px
-@media (max-width: 62em) {
+@media (max-width: 992px) {
 }
 // max width 768px
-@media (max-width: 48em) {
+@media (max-width: 768px) {
   .d-md-none {
     display: none;
   }
@@ -42,7 +239,7 @@
 }
 
 // max width 640px
-@media (max-width: 40em) {
+@media (max-width: 640px) {
   .d-sm-none {
     display: none;
   }
