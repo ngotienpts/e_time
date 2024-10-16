@@ -1,3 +1,23 @@
+function throttle(func, limit) {
+  let lastFunc;
+  let lastRan;
+  return function () {
+    const context = this;
+    const args = arguments;
+    if (!lastRan) {
+      func.apply(context, args);
+      lastRan = Date.now();
+    } else {
+      clearTimeout(lastFunc);
+      lastFunc = setTimeout(function () {
+        if ((Date.now() - lastRan) >= limit) {
+          func.apply(context, args);
+          lastRan = Date.now();
+        }
+      }, limit - (Date.now() - lastRan));
+    }
+  };
+}
 document.addEventListener("DOMContentLoaded", function () {
   // back top
   var backTop = document.querySelector("#back-top");
@@ -161,13 +181,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // su ly cac su kien
       this.handleEvent();
       // window scroll
-      this.windowScroll();
+      window.addEventListener('scroll', throttle(this.windowScroll.bind(this),300));
       // fancybox
-      this.fancybox();
+      // this.fancybox();
       // sticky bar home 1
-      this.stickyHome1();
+      // this.stickyHome1();
       // sticky bar cate
-      this.stickyCate();
+      // this.stickyCate();
       // slider primary
       this.sliderPrimary();
       // slider secondary
