@@ -1431,25 +1431,25 @@
       transform: rotate(360deg);
     }
   }
-  .slide-post ul .item {
+  .slide-post .ul .item {
     position: relative;
   }
-  .slide-post ul .item .img img {
+  .slide-post .ul .item .img img {
     width: 100%;
   }
-  .slide-post ul .item .title-box {
+  .slide-post .ul .item .title-box {
     position: absolute;
     bottom: 0;
     padding: 20px 15px;
     background: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
   }
-  .slide-post ul .item .title-box .title {
+  .slide-post .ul .item .title-box .title {
     font-size: 22px;
     color: #fff;
     font-weight: 500;
     line-height: 25px;
   }
-  .slide-post ul .item .title-box .time {
+  .slide-post .ul .item .title-box .time {
     font-size: 13px;
     color: #bbb;
   }
